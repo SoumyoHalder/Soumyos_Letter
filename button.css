@@ -1,0 +1,36 @@
+.write-button {
+    position: absolute;
+    bottom: 20px;
+    left: 60%;
+    transform: translateX(-50%);
+    background-color: #3760C9;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .write-button:hover {
+    background-color: #2c4f9e; /* Darker shade on hover */
+  }
+  .read-button {
+    position: absolute;
+    bottom: 20px;
+    left: 40%;
+    transform: translateX(-50%);
+    background-color: #3760C9;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .read-button:hover {
+    background-color: #2c4f9e; /* Darker shade on hover */
+  }
